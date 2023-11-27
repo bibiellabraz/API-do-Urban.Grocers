@@ -13,7 +13,7 @@ Projeto realizado pela plataforma da TripleTen, um novo recurso foi adicionado �
 5. Preparei a documentação do teste;
 6. Testes positivos e negativos.
 
-## conhecimento teórico do teste de API:
+### Conhecimento teórico do teste de API:
 1. Estrutura HTTP;
 2. Formato JSON;
 3. REST;
