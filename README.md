@@ -10,7 +10,9 @@ Projeto realizado pela plataforma da TripleTen, um novo recurso foi adicionado �
 4. Decompus e visualizei os requisitos;
 5. Criei os primeiros testes de API;
 4. Defini os casos de teste e projetei testes com a ajuda de técnicas de design de teste;
-5. Preparei a documentação do teste.
+5. Preparei a documentação do teste;
+6. Testes positivos e negativos;
+7. 
 
 ## conhecimento teórico do teste de API:
 1. Estrutura HTTP;
@@ -18,26 +20,20 @@ Projeto realizado pela plataforma da TripleTen, um novo recurso foi adicionado �
 3. REST;
 4. Técnicas de design de testes para API.
 
-### Requisitos API
-[Baixe aqui](https://github.com/bibiellabraz/meusarquivos/blob/6a6ff6c477bca073ba576e35fd2a361819fbce32/3%20Requisitos_para_o_back-end_do_Urban.grocers.pdf)
-
 ### Funcionalidade
 Urban.Grocers é um aplicativo para pedir comida que oferece entrega rápida. 
 
-### Design Figma
-[Clique aqui](https://www.figma.com/file/zlnWpxEe6DEX7YTZpmEHwG/Urban.Routes-PT?type=design&node-id=1-17946&mode=design)
+### Requisitos API
+[Baixe aqui](https://github.com/bibiellabraz/meusarquivos/blob/6a6ff6c477bca073ba576e35fd2a361819fbce32/3%20Requisitos_para_o_back-end_do_Urban.grocers.pdf)
 
-### Imagens do aplicativo
-![Texto Alternativo](https://github.com/bibiellabraz/meusarquivos/blob/c281f3956f4a81f7a53494b13878b7ab1743b750/Image%20(43).png)
+### Requisitos dos novos recursos
+A nova funcionalidade cobre diversas áreas, inclusive trabalho com kits, entregas e o carrinho:
+1. Trabalho com kits: a capacidade de adicionar produtos a um kit. O endpoint é POST /api/v1/kits/{id}/products
+2. Trabalho com serviços de entrega: a capacidade de verificar se o serviço de entrega Order and Go está disponível e quanto custa. O endpoint é POST /order-and-go/v1/delivery
+3. Trabalho com o carrinho: A capacidade de receber uma lista de produtos adicionados ao carrinho. O endpoint é GET /api/v1/orders/:id
+4. A capacidade de adicionar produtos ao carrinho. O endpoint é PUT /api/v1/orders/:id
+5. A capacidade de excluir o carrinho. O endpoint é DELETE /api/v1/orders/:id   
 
 ### Tecnologias e aplicativos
 1. Jira
-2. Figma
 
-# sprint3
-Checklist API, Postman e relatórios de bug
-Testes API;
-Analisar os requisitos para a nova funcionalidade do back-end do Urban.Grocers;
-Projetar os testes em um checklist para abordar a funcionalidade que precisa ser testada;
-Checklist;
-Testar a API através do Postman e enviar relatórios de bug ao Jira.
