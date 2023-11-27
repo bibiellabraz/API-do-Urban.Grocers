@@ -11,8 +11,7 @@ Projeto realizado pela plataforma da TripleTen, um novo recurso foi adicionado �
 5. Criei os primeiros testes de API;
 4. Defini os casos de teste e projetei testes com a ajuda de técnicas de design de teste;
 5. Preparei a documentação do teste;
-6. Testes positivos e negativos;
-7. 
+6. Testes positivos e negativos.
 
 ## conhecimento teórico do teste de API:
 1. Estrutura HTTP;
