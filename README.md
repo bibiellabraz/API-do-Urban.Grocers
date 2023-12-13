@@ -35,4 +35,5 @@ A nova funcionalidade cobre diversas áreas, inclusive trabalho com kits, entreg
 
 ### Tecnologias e aplicativos
 1. Jira
+2. Postman
 
